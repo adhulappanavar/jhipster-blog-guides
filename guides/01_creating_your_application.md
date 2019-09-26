@@ -25,7 +25,7 @@ Now that your application is up and running, you will soon need to create _entit
 You can use a graphical tool to create your entities. In this case, we advise you to use [JDL Studio](https://start.jhipster.tech/jdl-studio/), our online tool to create entities and relationships using our domain-specific language [JDL](https://www.jhipster.tech/jdl/).
 
 
-If you look in the `res` folder, you will see a file named <walkthrough-editor-open-file filePath="jhipster-guides/res/jhipster-jdl.jh" text="jhipster-jdl.jh"></walkthrough-editor-open-file> that is the .jh file that should be exported when you click on the top right button "Download text file of this JDL". If you open it, you will see that it is what you've written before.
+If you look in the `res` folder, you will see a file named <walkthrough-editor-open-file filePath="jhipster-blog-guides/res/jhipster-jdl.jh" text="jhipster-jdl.jh"></walkthrough-editor-open-file> that is the .jh file that should be exported when you click on the top right button "Download text file of this JDL". If you open it, you will see that it is what you've written before.
 
 ## Importing the .jh file
 
@@ -34,7 +34,7 @@ After creating the .jh file, you can now generate entities from the JDL file usi
 Go to your project directory and type:
 
 ```bash
-jhipster import-jdl ~/jhipster-guides/res/jhipster-jdl.jh
+jhipster import-jdl ~/jhipster-blog-guides/res/jhipster-jdl.jh
 ```
 
 Run the generated test suite, with 
@@ -52,5 +52,5 @@ Congratulations! You now know how to create entities !
 Enter the next command line to start the next tutorial:
 
 ```bash
-cloudshell launch-tutorial -d ~/jhipster-guides/guides/02_updating_your_back-end.md;
+cloudshell launch-tutorial -d ~/jhipster-blog-guides/guides/02_updating_your_back-end.md;
 ```

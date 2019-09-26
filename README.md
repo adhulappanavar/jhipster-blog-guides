@@ -5,7 +5,7 @@ All you need is a Google account and access to https://console.cloud.google.com 
 
 Click the button to run the tutorial:
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/jhipster/jhipster-guides&tutorial=guides/00_setting_up_your_environment.md)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/jhipster/jhipster-blog-guides&tutorial=guides/00_setting_up_your_environment.md)
 
 **Please note that clicking this button will open the Google Cloud Shell in a new tab, clone the repository tutorials and start the tutorial n°0**
 
@@ -20,11 +20,11 @@ It should be noted that the tutorials are made to be used in the first place wit
 To run a particular tutorial, use this command in the Google Cloud Shell, replacing  `YOUR_TUTORIAL_NAME` by the name of the tutorial that you want to do:
 
 ```bash
-teachme ~/jhipster-guides/guides/YOUR_TUTORIAL_NAME.md
+teachme ~/jhipster-blog-guides/guides/YOUR_TUTORIAL_NAME.md
 ```
 
 If your Google Cloud Shell session expires, you will have to follow the steps in tutorial n°0 again. We've provided a minimal script that installs for you in the utils folder. You just need to run this next command in the Google Cloud Shell:
 
 ```bash
-~/jhipster-guides/utils/setup.sh
+~/jhipster-blog-guides/utils/setup.sh
 ```
